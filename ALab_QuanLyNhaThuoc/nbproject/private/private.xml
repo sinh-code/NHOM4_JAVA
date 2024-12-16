@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/controller/TaiKhoanDAO.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/model/Thuoc.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/view/QLThuocForm.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/model/NhanVien.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/controller/ThuocDAO.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/view/QLTaiKhoan.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/alab_quanlynhathuoc/ALab_QuanLyNhaThuoc.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/view/UserPage.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/view/AdminPage.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/view/QLNhanVienForm.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/model/TaiKhoan.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/connect/DatabaseConnection.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/view/LoginForm.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/controller/NhanVienDAO.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/view/ThongKeForm.java</file>
+            <file>file:/D:/ALab_QuanLyNhaThuoc/src/controller/LoginDAO.java</file>
+        </group>
+    </open-files>
+</project-private>

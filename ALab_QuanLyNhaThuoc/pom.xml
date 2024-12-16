@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- Basic project coordinates -->
+  <groupId>ALab_QuanLyNhaThuoc</groupId>
+  <artifactId>ALab_QuanLyNhaThuoc</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <!-- Build section -->
+  <build>
+    <!-- Default source directory, Maven convention is 'src/main/java' -->
+    <sourceDirectory>src/main/java</sourceDirectory>
+
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory> <!-- Default resource path -->
+        <excludes>
+          <exclude>**/*.java</exclude> <!-- Exclude Java files from resources -->
+        </excludes>
+      </resource>
+    </resources>
+
+    <plugins>
+      <!-- Compiler Plugin for Java version -->
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>17</release> <!-- Use Java 17 -->
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <!-- Dependencies -->
+  <dependencies>
+    <!-- Microsoft SQL Server JDBC Driver -->
+    <dependency>
+      <groupId>com.microsoft.sqlserver</groupId>
+      <artifactId>mssql-jdbc</artifactId>
+      <version>10.2.0.jre8</version>
+    </dependency>
+
+    <!-- FlatLaf Look and Feel for Swing Applications -->
+    <dependency>
+      <groupId>com.formdev</groupId>
+      <artifactId>flatlaf</artifactId>
+      <version>2.0</version>
+    </dependency>
+
+    <!-- JCalendar for date selection in Swing apps -->
+    <dependency>
+      <groupId>com.toedter</groupId>
+      <artifactId>jcalendar</artifactId>
+      <version>1.4</version>
+    </dependency>
+  </dependencies>
+</project>
